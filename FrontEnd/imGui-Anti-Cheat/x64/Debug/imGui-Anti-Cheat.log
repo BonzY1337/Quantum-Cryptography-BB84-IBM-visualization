@@ -1,0 +1,25 @@
+﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(551,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (imGui-Anti-Cheat.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_stdlib.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  imGui-Anti-Cheat.cpp
+  Generating Code...
+  LINK : 0 new modules and 9 (out of 59) modules have changed since prior linking
+  Starting pass 2
+       imGui-Anti-Cheat.obj
+       imgui_widgets.obj
+       imgui_tables.obj
+       imgui_stdlib.obj
+       imgui_impl_win32.obj
+       imgui_impl_dx11.obj
+       imgui_draw.obj
+       imgui_demo.obj
+       imgui.obj
+       MSVCRTD.lib(loadcfg.obj)
+  Finished pass 2
+  imGui-Anti-Cheat.vcxproj -> C:\Users\bonzy\Desktop\Crypto\x64\Debug\CompromiseQC.exe
