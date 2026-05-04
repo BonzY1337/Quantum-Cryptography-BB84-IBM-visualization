@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bb84-qkd-service"
+version = "0.1.0"
+description = "Production-ready Flask backend for BB84 quantum key distribution using Qiskit"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "Flask>=3.1,<4.0",
+  "qiskit>=2.3,<3.0",
+  "qiskit-aer>=0.17,<1.0",
+  "qiskit-ibm-runtime>=0.45,<1.0",
+  "waitress>=3.0,<4.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["bb84_service*"]
